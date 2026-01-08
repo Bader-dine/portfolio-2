@@ -1,6 +1,7 @@
 # Bader Eddine Dakhli - Portfolio
 
 A modern, professional, and dynamic personal engineering portfolio website built with Next.js 15.
+<img width="1303" height="623" alt="site-V1" src="https://github.com/user-attachments/assets/608220bb-2e4a-4415-9f44-b05a9ffe8d45" />
 
 ## 🚀 Tech Stack
 
