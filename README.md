@@ -35,7 +35,7 @@ A modern, professional, and dynamic personal engineering portfolio website built
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd site_socke_facture
+   cd portfolio
    ```
 
 2. Install dependencies:
