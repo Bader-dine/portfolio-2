@@ -1,7 +1,10 @@
 # Bader Eddine Dakhli - Portfolio
 
 A modern, professional, and dynamic personal engineering portfolio website built with Next.js 15.
+<<<<<<< HEAD
 <img width="1303" height="623" alt="site-V1" src="https://github.com/user-attachments/assets/608220bb-2e4a-4415-9f44-b05a9ffe8d45" />
+=======
+>>>>>>> 0e40314 (update)
 
 ## 🚀 Tech Stack
 
@@ -36,7 +39,11 @@ A modern, professional, and dynamic personal engineering portfolio website built
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+<<<<<<< HEAD
    cd portfolio
+=======
+   cd site_socke_facture
+>>>>>>> 0e40314 (update)
    ```
 
 2. Install dependencies:

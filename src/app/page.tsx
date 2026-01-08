@@ -79,19 +79,19 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-4 text-center">
             <div className="stat-item">
-              <span className="stat-number">5+</span>
+              <span className="stat-number">1.3+</span>
               <span className="stat-label">Years Experience</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">20+</span>
+              <span className="stat-number">11+</span>
               <span className="stat-label">Projects Completed</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">15+</span>
+              <span className="stat-number">10+</span>
               <span className="stat-label">Technologies Mastered</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">100%</span>
+              <span className="stat-number">80%</span>
               <span className="stat-label">Client Satisfaction</span>
             </div>
           </div>
