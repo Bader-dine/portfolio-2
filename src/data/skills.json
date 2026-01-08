@@ -1,0 +1,205 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      {
+        "name": "Python",
+        "level": 95
+      },
+      {
+        "name": "C",
+        "level": 85
+      },
+      {
+        "name": "C++",
+        "level": 90
+      },
+      {
+        "name": "C#",
+        "level": 80
+      },
+      {
+        "name": "JavaScript/TypeScript",
+        "level": 85
+      },
+      {
+        "name": "CSS",
+        "level": 80
+      },
+      {
+        "name": "XML",
+        "level": 75
+      },
+      {
+        "name": "VHDL",
+        "level": 70
+      },
+      {
+        "name": "MATLAB",
+        "level": 85
+      },
+      {
+        "name": "Assembly",
+        "level": 70
+      },
+      {
+        "name": "Dart",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "category": "Softwares",
+    "skills": [
+      {
+        "name": "Visual Studio",
+        "level": 90
+      },
+      {
+        "name": "Milestone XProtect",
+        "level": 90
+      },
+      {
+        "name": "PyCharm",
+        "level": 95
+      },
+      {
+        "name": "TIA Portal",
+        "level": 90
+      },
+      {
+        "name": "Proteus ISIS",
+        "level": 85
+      },
+      {
+        "name": "Android Studio",
+        "level": 80
+      }
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "skills": [
+      {
+        "name": "Flutter",
+        "level": 80
+      },
+      {
+        "name": "Qt",
+        "level": 75
+      },
+      {
+        "name": "Django",
+        "level": 85
+      },
+      {
+        "name": "GStreamer",
+        "level": 90
+      },
+      {
+        "name": "OpenVINO",
+        "level": 90
+      },
+      {
+        "name": "DL Streamer",
+        "level": 85
+      }
+    ]
+  },
+  {
+    "category": "Embedded Systems",
+    "skills": [
+      {
+        "name": "Arduino",
+        "level": 95
+      },
+      {
+        "name": "Raspberry Pi",
+        "level": 90
+      },
+      {
+        "name": "ARM",
+        "level": 80
+      },
+      {
+        "name": "STM32",
+        "level": 85
+      },
+      {
+        "name": "FPGA",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "category": "Adobe Softwares",
+    "skills": [
+      {
+        "name": "Photoshop",
+        "level": 85
+      },
+      {
+        "name": "Illustrator",
+        "level": 80
+      },
+      {
+        "name": "Premiere Pro",
+        "level": 85
+      },
+      {
+        "name": "Xd",
+        "level": 80
+      }
+    ]
+  },
+  {
+    "category": "Computer Vision & AI",
+    "skills": [
+      {
+        "name": "OpenCV",
+        "level": 95
+      },
+      {
+        "name": "PyTorch",
+        "level": 90
+      },
+      {
+        "name": "TensorFlow",
+        "level": 90
+      },
+      {
+        "name": "YOLO",
+        "level": 95
+      },
+      {
+        "name": "Facial Recognition",
+        "level": 95
+      },
+      {
+        "name": "DeepFace",
+        "level": 85
+      },
+      {
+        "name": "NumPy",
+        "level": 95
+      }
+    ]
+  },
+  {
+    "category": "Languages",
+    "skills": [
+      {
+        "name": "Arabic",
+        "level": 100
+      },
+      {
+        "name": "French",
+        "level": 75
+      },
+      {
+        "name": "English",
+        "level": 80
+      }
+    ]
+  }
+]

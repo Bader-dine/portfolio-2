@@ -1,0 +1,29 @@
+[
+  {
+    "id": "technical-spec-video-analytics",
+    "title": "Video Analytics System Technical Specification",
+    "description": "Comprehensive technical documentation for the Milestone XProtect integrated video analytics system including architecture, API specifications, and deployment guide.",
+    "category": "Technical Specifications",
+    "fileUrl": "/documents/video-analytics-spec.pdf",
+    "fileSize": "2.4 MB",
+    "fileType": "PDF"
+  },
+  {
+    "id": "research-facial-recognition",
+    "title": "Facial Recognition Research Paper",
+    "description": "Research paper on deep learning approaches for facial recognition in challenging lighting conditions and partial occlusions.",
+    "category": "Research Papers",
+    "fileUrl": "/documents/facial-recognition-research.pdf",
+    "fileSize": "1.8 MB",
+    "fileType": "PDF"
+  },
+  {
+    "id": "plc-programming-guide",
+    "title": "PLC Programming Standards Guide",
+    "description": "Internal standards and best practices guide for PLC programming with TIA Portal, including naming conventions and code structure.",
+    "category": "Technical Documentation",
+    "fileUrl": "/documents/plc-programming-guide.pdf",
+    "fileSize": "1.2 MB",
+    "fileType": "PDF"
+  }
+]

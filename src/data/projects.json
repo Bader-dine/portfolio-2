@@ -1,0 +1,181 @@
+[
+  {
+    "id": "video-analytics-xprotect",
+    "title": "Real-Time Video Processing Service with Milestone XProtect",
+    "domain": [
+      "Computer Vision",
+      "AI & Video Analytics"
+    ],
+    "context": "Developed a video processing service for real-time video stream analysis, integrated with Milestone XProtect VMS.",
+    "architecture": "Microservices architecture using GStreamer for video streaming, OpenVINO and DL Streamer for AI inference, Docker for containerization, and WebSocket for real-time communication with the VMS.",
+    "technologies": [
+      "OpenVINO",
+      "DL Streamer",
+      "GStreamer",
+      "Docker",
+      "WebSocket",
+      "Milestone XProtect",
+      "MIP SDK",
+      "C#",
+      "C++"
+    ],
+    "role": "Lead Engineer - Designed the system architecture, implemented video processing pipelines, and created a command interface in XProtect Smart Client.",
+    "results": [
+      "Enabled real-time object detection (people, vehicles, faces) using OpenVINO and DL Streamer",
+      "Created a command interface in XProtect Smart Client to manage the service Docker container",
+      "Facilitated real-time metadata exchange via WebSocket",
+      "Successfully integrated with Milestone XProtect VMS"
+    ],
+    "featured": true
+  },
+  {
+    "id": "facial-recognition-leoni",
+    "title": "Facial Recognition-Based Security Solution",
+    "domain": [
+      "Computer Vision",
+      "AI & Video Analytics"
+    ],
+    "context": "Enhanced the security of Leoni's CSWIN software access systems by addressing vulnerabilities in traditional authentication methods.",
+    "architecture": "Designed, developed, and integrated a facial recognition-based solution using deep learning techniques.",
+    "technologies": [
+      "OpenCV",
+      "PyTorch",
+      "TensorFlow",
+      "NumPy",
+      "Facial Recognition",
+      "DeepFace"
+    ],
+    "role": "AI Engineer - Developed and integrated the facial recognition solution bolstering the software's security.",
+    "results": [
+      "Bolstered software security through advanced biometric authentication",
+      "Addressed vulnerabilities in traditional authentication methods",
+      "Successfully integrated with existing CSWIN software"
+    ],
+    "featured": true
+  },
+  {
+    "id": "object-detection-tracking",
+    "title": "Detection and Tracking of Dynamic Objects in Videos",
+    "domain": [
+      "Computer Vision",
+      "AI & Video Analytics"
+    ],
+    "context": "Developed a system for detecting and tracking dynamic objects in videos using advanced computer vision algorithms.",
+    "architecture": "Implemented Python, OpenCV, and YOLOv5 for object detection in each video frame. Utilized correlation and Kalman filtering for continuous object tracking.",
+    "technologies": [
+      "Python",
+      "Google Colab",
+      "OpenCV",
+      "YOLOv5",
+      "Kalman Filter"
+    ],
+    "role": "Computer Vision Engineer - Implemented detection and tracking algorithms and optimized for video processing.",
+    "results": [
+      "Achieved robust detection and tracking of dynamic objects",
+      "Utilized Kalman filtering for continuous and accurate object tracking",
+      "Implemented efficient processing pipeline using YOLOv5"
+    ],
+    "featured": true
+  },
+  {
+    "id": "intelligent-system-diagnosis",
+    "title": "Intelligent System Diagnosis",
+    "domain": [
+      "AI & Video Analytics",
+      "Industrial Automation"
+    ],
+    "context": "Employed artificial intelligence to diagnose and automatically resolve issues within a complex industrial system.",
+    "architecture": "Integrated sensors for real-time system monitoring, employing machine learning for anomaly detection and automated solutions.",
+    "technologies": [
+      "Python",
+      "AI",
+      "Diagnosis",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "role": "AI Engineer - Developed anomaly detection models and automated resolution strategies.",
+    "results": [
+      "Elevated system reliability, efficiency, and operational performance",
+      "Implemented real-time monitoring and automated fault resolution",
+      "Successfully diagnosed complex system issues using AI"
+    ],
+    "featured": false
+  },
+  {
+    "id": "robotics-abb-grasping",
+    "title": "Object Detection and Grasping with ABB Robot",
+    "domain": [
+      "Robotics",
+      "Computer Vision"
+    ],
+    "context": "Developed a vision system to detect parts and compute their 3D poses for accurate grasp planning for an ABB 6-axis robot.",
+    "architecture": "Vision system for part detection and 3D pose computation using OpenCV and transformation matrices. Orientation analysis for accurate grasp planning.",
+    "technologies": [
+      "OpenCV",
+      "Pose Estimation",
+      "Robotics",
+      "ABB",
+      "Python",
+      "RoboDK",
+      "Grasp Planning"
+    ],
+    "role": "Robotics Engineer - Developed vision system and programmed robot motion for accurate grasping.",
+    "results": [
+      "Achieved accurate 3D pose estimation for robotic grasping",
+      "Enabled precise grasp planning for an ABB 6-axis robot",
+      "Integrated vision and robotics for automated part handling"
+    ],
+    "featured": false
+  },
+  {
+    "id": "obstacle-detection-yolo",
+    "title": "Obstacle Detection through Shape Recognition and Classification",
+    "domain": [
+      "Robotics",
+      "Computer Vision"
+    ],
+    "context": "Developed a robotic system capable of real-time object recognition and classification using YOLO for obstacle avoidance.",
+    "architecture": "Real-time object recognition and classification using YOLO. Optimized robot's movement trajectory for efficient navigation.",
+    "technologies": [
+      "YOLO",
+      "TensorFlow",
+      "Object Detection",
+      "Classification",
+      "Real-Time",
+      "Path Optimization",
+      "Robotics"
+    ],
+    "role": "Robotics Engineer - Implemented real-time detection and optimized navigation trajectories.",
+    "results": [
+      "Enabled real-time object recognition and classification for robotics",
+      "Optimized movement trajectory for efficient obstacle avoidance",
+      "Improved robotic navigation in complex environments"
+    ],
+    "featured": false
+  },
+  {
+    "id": "personal-portfolio",
+    "title": "Personal Portfolio Website: My Resume and Projects",
+    "domain": [
+      "Web Development"
+    ],
+    "context": "Crafted an interactive website featuring my resume and professional projects.",
+    "architecture": "Developed using Django, Python, CSS, HTML, JavaScript, pgAdmin, and SQL.",
+    "technologies": [
+      "Python",
+      "Django",
+      "CSS",
+      "HTML",
+      "JS",
+      "pgAdmin",
+      "SQL"
+    ],
+    "role": "Full Stack Developer - Designed and developed the entire portfolio website and database.",
+    "results": [
+      "Showcased expertise in web development and database management",
+      "Created an interactive platform highlighting work and experience",
+      "Successfully deployed a professional personal portfolio"
+    ],
+    "featured": false
+  }
+]

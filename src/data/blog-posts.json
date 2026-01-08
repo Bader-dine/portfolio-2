@@ -1,0 +1,29 @@
+[
+  {
+    "id": "understanding-gstreamer-pipelines",
+    "title": "Understanding GStreamer Pipelines for Video Analytics",
+    "date": "2025-12-15",
+    "excerpt": "A deep dive into building efficient GStreamer pipelines for real-time video processing and analytics applications.",
+    "content": "# Understanding GStreamer Pipelines for Video Analytics\n\nGStreamer is a powerful multimedia framework that enables efficient video processing pipelines. In this article, I'll share my experience building production-ready video analytics systems.\n\n## Pipeline Architecture\n\nA typical GStreamer pipeline consists of:\n- **Source elements**: Video capture from cameras or files\n- **Processing elements**: Decoding, scaling, color conversion\n- **AI inference elements**: Object detection, classification\n- **Sink elements**: Display, file storage, or streaming\n\n## Key Considerations\n\n### 1. Buffer Management\nProper buffer management is crucial for real-time performance. Use queue elements strategically to prevent pipeline stalls.\n\n### 2. Hardware Acceleration\nLeverage hardware decoders and encoders when available. On Intel platforms, VA-API provides significant performance gains.\n\n### 3. Synchronization\nEnsure proper synchronization between video and metadata streams, especially when integrating with VMS systems like Milestone XProtect.\n\n## Example Pipeline\n\n```bash\ngst-launch-1.0 rtspsrc location=rtsp://camera-ip ! \\\n  rtph264depay ! h264parse ! vaapih264dec ! \\\n  vaapipostproc ! video/x-raw,format=BGRx ! \\\n  gvadetect model=model.xml ! \\\n  gvametaconvert ! fakesink\n```\n\n## Conclusion\n\nGStreamer provides the flexibility and performance needed for industrial video analytics. Understanding its architecture is key to building robust systems.",
+    "tags": ["GStreamer", "Video Analytics", "Computer Vision"],
+    "readTime": 8
+  },
+  {
+    "id": "yolo-object-detection-optimization",
+    "title": "Optimizing YOLO for Real-Time Object Detection",
+    "date": "2025-11-20",
+    "excerpt": "Techniques for optimizing YOLO models to achieve real-time performance on edge devices and GPUs.",
+    "content": "# Optimizing YOLO for Real-Time Object Detection\n\nYOLO (You Only Look Once) has revolutionized object detection with its speed and accuracy. Here's how to optimize it for production.\n\n## Model Selection\n\nChoose the right YOLO variant:\n- **YOLOv5**: Excellent balance of speed and accuracy\n- **YOLOv8**: Latest improvements, better small object detection\n- **YOLO-NAS**: Neural Architecture Search for optimal performance\n\n## Optimization Techniques\n\n### 1. Model Quantization\nConvert FP32 models to INT8 for 4x speedup with minimal accuracy loss.\n\n### 2. TensorRT Optimization\nUse NVIDIA TensorRT for GPU deployment:\n```python\nfrom torch2trt import torch2trt\ntrt_model = torch2trt(model, [x], fp16_mode=True)\n```\n\n### 3. Input Resolution\nBalance between accuracy and speed by adjusting input size. 640x640 is a good starting point.\n\n## Performance Results\n\n| Configuration | FPS | mAP |\n|--------------|-----|-----|\n| YOLOv8n FP32 | 45  | 0.52|\n| YOLOv8n INT8 | 120 | 0.50|\n| YOLOv8s TRT  | 90  | 0.61|\n\n## Conclusion\n\nWith proper optimization, YOLO can achieve real-time performance even on edge devices.",
+    "tags": ["YOLO", "Object Detection", "Optimization", "Deep Learning"],
+    "readTime": 6
+  },
+  {
+    "id": "plc-programming-best-practices",
+    "title": "PLC Programming Best Practices with TIA Portal",
+    "date": "2025-10-10",
+    "excerpt": "Essential best practices for writing maintainable and efficient PLC code in Siemens TIA Portal.",
+    "content": "# PLC Programming Best Practices with TIA Portal\n\nAfter years of industrial automation work, I've compiled essential best practices for PLC programming.\n\n## Code Organization\n\n### 1. Modular Programming\nBreak complex logic into function blocks (FBs) and functions (FCs):\n- Reusability across projects\n- Easier testing and debugging\n- Better team collaboration\n\n### 2. Naming Conventions\nUse clear, descriptive names:\n```\n// Good\nMotor_Conveyor_01_Start\nSensor_Temperature_Tank_A\n\n// Bad\nM1\nT1\n```\n\n### 3. Documentation\nComment your code extensively:\n- Purpose of each network\n- Safety considerations\n- Interlock conditions\n\n## Safety First\n\n### Emergency Stop Logic\nAlways implement fail-safe emergency stop:\n```\nIF NOT Emergency_Stop THEN\n  // Normal operation\nEND_IF\n```\n\n### Watchdog Timers\nImplement watchdog timers for critical processes to detect system failures.\n\n## Performance Optimization\n\n### Scan Time Management\n- Keep main OB1 scan time < 50ms\n- Use cyclic interrupts for time-critical tasks\n- Optimize Boolean logic order\n\n## Version Control\n\nUse TIA Portal's built-in version control or export to Git-compatible format.\n\n## Conclusion\n\nFollowing these practices ensures reliable, maintainable automation systems.",
+    "tags": ["PLC", "TIA Portal", "Industrial Automation", "Best Practices"],
+    "readTime": 7
+  }
+]
